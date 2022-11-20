@@ -13,19 +13,44 @@ h1 {
 .logo {
   display: block;
   margin: auto;
-  height: 13em;
-  width: 13em;
+  height: 15em;
+  width: 15em;
   border-radius: 50px;
   margin-top: 180px;
 }
 
+/* RavenVFX Text */
 .container{
-  text-align: center;
-  margin: 9px;
   font-size: 100px;
   color: white;
+  display: inline-block;
   text-align: center;
+  margin-left: 22%;
 }
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  from { border-color: transparent }
+  to { border-color: rgb(255, 255, 255); }
+}
+
+.typed-out{
+  overflow: hidden;
+  border-right: .11em solid rgb(255, 255, 255);
+  white-space: nowrap;
+  font-size: 5.2rem;
+  width: 0;
+  animation: 
+    typing 1s steps(8, end) forwards,
+    blink .8s infinite;
+
+}
+/* RavenVFX Text */
 
 
 * {
