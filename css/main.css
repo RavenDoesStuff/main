@@ -1,5 +1,5 @@
 :root {
-  background-image: url(background.svg);
+  background-image: url(background2.svg);
   background-size: cover;
   background-position: 48%;
   height: 100vh;
@@ -15,8 +15,19 @@ h1 {
   margin: auto;
   height: 15em;
   width: 15em;
-  border-radius: 50px;
+  border-radius: 600px;
   margin-top: 180px;
+}
+
+footer {
+  font-weight: bolder;
+  font-size: 25px;
+  margin: flex;
+  border: 2px;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 /* RavenVFX Text */
@@ -60,7 +71,7 @@ h1 {
 }
 
 .buttons {
-  margin: 5%;
+  margin: 2%;
   text-align: center;
   display: flex;
 }
@@ -95,7 +106,7 @@ h1 {
 }
 
 .btn-hover.color-10 {
-      background-image: linear-gradient(to right, #2d8aaf, #38977b, #18f788 , #41fb3b);
-      box-shadow: 0 4px 15px 0 #74ece6bf;
+      background-image: linear-gradient(to right, #c9e376, #8fa059, rgb(193, 238, 90) , #969e74);
+      box-shadow: 0 4px 15px 0 #000000bf;
 }
 
